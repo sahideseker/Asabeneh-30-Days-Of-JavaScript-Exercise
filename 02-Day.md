@@ -1,6 +1,6 @@
-💻 Gün 2: Egzersizleri
+ 💻 Day 2: Exercises
 
-Exercise: Seviye 1
+Exercise: Level 1
 
 1. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
  
@@ -207,7 +207,7 @@ let challenge = '30 Days Of JavaScript';
 console.log(challenge.repeat(2));
 
 ```
-Egzersiz: Seviye 2
+Exercise: Level 2
 
 1. Using console.log() print out the following statement:
 
@@ -332,7 +332,7 @@ let result = sentence.substr(28, 23);
 console.log(result); // because because because
 ```
 
-Egzersiz: Seviye 3
+Exercises: Level 3
 
 1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence.
 
