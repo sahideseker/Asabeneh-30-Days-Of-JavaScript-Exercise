@@ -2,11 +2,11 @@ Exercises: Level 1
 
 1. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
-* Enter your age: 30 <br>
-* You are old enough to drive.
+    Enter your age: 30 <br>
+    You are old enough to drive.
 
-* Enter your age:15 <br>
-* You are left with 3 years to drive.
+    Enter your age:15 <br>
+    You are left with 3 years to drive.
 
 ```js
 let age = prompt("Enter your age:");
@@ -21,8 +21,8 @@ if (age >= 18) {
 
 2. Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
-* Enter your age: 30 <br>
-* You are 5 years older than me.
+    Enter your age: 30  <br>
+    You are 5 years older than me.
 
 ```js
 let myAge = 25; // You can change this value if needed
@@ -66,11 +66,11 @@ console.log(result);
 
 4. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
 
-* Enter a number: 2 <br>
-* 2 is an even number <br>
+    Enter a number: 2 <br>
+    2 is an even number 
 
-* Enter a number: 9 <br>
-* 9 is is an odd number.
+    Enter a number: 9 <br>
+    9 is is an odd number.
 
 ```js
 let num = prompt("Enter a number:");
@@ -110,6 +110,7 @@ if (score >= 80 && score <= 100) {
 }
 ```
 2. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+ 
 * September, October or November, the season is Autumn.
 * December, January or February, the season is Winter.
 * March, April or May, the season is Spring
@@ -133,17 +134,17 @@ if (month === "September" || month === "October" || month === "November") {
 
 3. Check if a day is weekend day or a working day. Your script will take day as an input.
     
-    * What is the day  today? Saturday
-    * Saturday is a weekend.
+    What is the day  today? Saturday  <br>
+    Saturday is a weekend.
 
-    * What is the day today? saturDaY
-    * Saturday is a weekend.
+    What is the day today? saturDaY  <br>
+    Saturday is a weekend.
 
-    * What is the day today? Friday
-    * Friday is a working day.
+    What is the day today? Friday  <br>
+    Friday is a working day.
 
-    * What is the day today? FrIDAy
-    * Friday is a working day.
+    What is the day today? FrIDAy  <br>
+    Friday is a working day.
   
   ```js
   let day = prompt("What is the day today?").toLowerCase();
@@ -169,17 +170,17 @@ Exercises: Level 3
 
 1. Write a program which tells the number of days in a month.
 
-  * Enter a month: January
-  * January has 31 days.
+    Enter a month: January <br>
+    January has 31 days.
 
-  * Enter a month: JANUARY
-  * January has 31 day
+    Enter a month: JANUARY  <br>
+    January has 31 day
 
-  * Enter a month: February
-  * February has 28 days.
+    Enter a month: February  <br>
+    February has 28 days.
 
-  * Enter a month: FEbruary
-  * February has 28 days.
+    Enter a month: FEbruary  <br>
+    February has 28 days.
   
 ```js
 // if else
