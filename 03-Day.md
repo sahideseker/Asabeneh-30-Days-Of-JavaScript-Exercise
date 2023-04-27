@@ -344,7 +344,6 @@ You lived 3153600000 seconds. <br>
 let years = prompt("Enter number of years you live:");
 let seconds = years * 365 * 24 * 60 * 60;
 console.log(`You lived ${seconds} seconds.`);
- 
 ```
 
 15. Create a human readable time format using the Date time object
@@ -369,7 +368,6 @@ const date3 = day + '/' + month + '/' + year + ' ' + hour + ':' + minute;
 console.log(date1);
 console.log(date2);
 console.log(date3);
-
 ```
 Exercises: Level 3
 
